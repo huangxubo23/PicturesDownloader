@@ -1,0 +1,22 @@
+html body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-row-1 {
+  flex: 1;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

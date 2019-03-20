@@ -1,0 +1,38 @@
+{
+  "name": "图片下载助手",
+  "version": "1.0",
+  "description": "图片批量下载插件",
+  "manifest_version": 2,
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "background": {
+    "persistent": true,
+    "scripts": ["jquery/jquery-3.3.1.min.js", "src/background.js"]
+  },
+  "browser_action": {
+    "default_icon": "images/icon_128.png",
+    "default_popup": "src/pages/popup.html"
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "512": "images/icon_512.png",
+    "64": "images/icon_64.png",
+    "48": "images/icon_48.png",
+    "32": "images/icon_32.png",
+    "16": "images/icon_16.png"
+ },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "browsingData",
+    "storage",
+    "downloads",
+    "notifications",
+    "contextMenus",
+    "fontSettings",
+    "http://*/*",
+    "https://*/*",
+    "ftp://*/*",
+    "\u003Call_urls>" 
+  ]
+}

@@ -1,0 +1,78 @@
+.popup {
+  width: 420px;
+}
+
+.popup-header {
+  padding: 10px 5px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.popup-header-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.pupup-content {
+  padding: 15px 5px;
+}
+
+.pupup-list-item {
+  cursor: pointer;
+  opacity: 0.8;
+  color: #333333;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+.pupup-list-item:hover {
+  cursor: pointer;
+  opacity: 1;
+  color: #000000;
+}
+
+.pupup-list-item-main {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.pupup-list-item-title {
+  font-size: 14px;
+  padding: 2px;
+}
+
+
+.pupup-list-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.pupup-list-icon-large {
+  width: 100px;
+  height: 100px;
+}
+
+.pupup-list-button-main {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
